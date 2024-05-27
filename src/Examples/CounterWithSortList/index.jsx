@@ -11,12 +11,11 @@ const SortedList =({names, sortFunc})=>{
     )
   }
 
-const Example2 = () => {
+const CounterWithSortList = () => {
   const [count, setCount] = useState(0);
   const [names] = useState(["John", "Bob", "Alice", "Charlie"])
 
   const sortNames = (names)=>{
-      console.log('called sortNames')
       return names.sort()
   }
 
@@ -34,4 +33,4 @@ const Example2 = () => {
   );
 }
 
-export default Example2;
+export default CounterWithSortList;

@@ -1,0 +1,38 @@
+.form-container {
+  background-color: lightblue;
+  height: 350px;
+  border-radius: 5px;
+}
+
+form {
+  padding: 60px 20px;
+}
+
+form > input {
+  width: 500px;
+  height: 40px;
+  margin: 10px 0;
+  padding-left: 12px;
+}
+
+form > button {
+  margin-top: 20px;
+  margin-left: 200px;
+  background-color: rgb(10, 13, 199);
+  color: white;
+}
+
+.message {
+  margin-top: 20px;
+  width: 550px;
+  padding: 5px;
+  background-color: lightgreen;
+  color: white;
+}
+.error {
+  margin-top: 20px;
+  width: 550px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+}
