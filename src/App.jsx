@@ -4,6 +4,7 @@ import BasicCounter from "./Examples/BasicCounter";
 // import CounterWithSortList from "./Examples/CounterWithSortList";
 // import UsersExample from './Examples/Users';
 // import ThemeExample from './Examples/Theme';
+//import ForwardRef from "./Examples/ForwardRef";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         {/* <CounterWithSortList /> */}
         {/* <UsersExample /> */}
         {/* <ThemeExample /> */}
-         {/* <Forms /> */}
+        {/* <Forms /> */}
+        {/* <ForwardRef /> */}
       </Suspense>
     </div>
   </>
