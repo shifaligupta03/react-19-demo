@@ -8,18 +8,22 @@ import Forms from "./Examples/Forms";
 function App() {
   return (
     <>
-      <h1>React 19 Examples</h1>
-      <div>
-        <Suspense fallback={<h1 className='loadingStyle'>Loading...</h1>}>
-          {/* <BasicCounter /> */}
+     <h1>React 19</h1>
+    <div>
+      <Suspense
+        fallback={
+          <h1 className="loadingStyle">Loading...</h1>
+        }
+      >
+         <BasicCounter />
+        {/* <CounterWithSortList /> */}
+           {/* <UsersExample /> */}
+        {/* <ThemeExample /> */}
+         {/* <Forms /> */}
+      </Suspense>
+    </div>
+  </>
 
-          {/* <CounterWithSortList /> */}
-          {/* <Users /> */}
-          {/* <ThemeExample /> */}
-          <Forms />
-        </Suspense>
-      </div>
-    </>
   );
 }
 

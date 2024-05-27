@@ -2,7 +2,6 @@ import { useState } from "react";
 import './style.css'
 
 function Header() {
-  console.log("Header", Math.random());
   return (
     <header>
       <h3>React Counter</h3>
@@ -10,7 +9,7 @@ function Header() {
   );
 }
 
-const Example1 = () => {
+const BasicCounter = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -24,4 +23,4 @@ const Example1 = () => {
   );
 }
 
-export default Example1;
+export default BasicCounter;
