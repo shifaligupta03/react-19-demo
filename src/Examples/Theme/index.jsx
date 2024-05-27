@@ -1,9 +1,9 @@
+/* eslint-disable react/prop-types */
 import { createContext, useState, use } from 'react';
 import './style.css';
 
 const ThemeContext = createContext();
 
-// eslint-disable-next-line react/prop-types
 const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState('light');
 
@@ -35,7 +35,7 @@ const Card = () => {
         Theme Card
       </h3>
       <p className={theme === 'light' ? 'light-gray' : 'white-text'}>
-       Hello!! use() hook
+       use(context) hook
       </p>
       <button
         onClick={toggleTheme}
